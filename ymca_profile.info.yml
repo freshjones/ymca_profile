@@ -1,0 +1,58 @@
+name: YMCA
+type: profile
+description: 'YMCA Profile'
+core: 8.x
+distribution:
+  name: YMCA
+dependencies:
+  # Core
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
+  - automated_cron
+  #migration
+  - migrate
+  - migrate_plus
+  - migrate_tools
+  - link
+  # administration
+  - admin_toolbar
+  # features
+  - features
+  - features_ui
+  #custom
+  - pathauto
+  
+themes:
+  - bartik
+  - seven
