@@ -4,7 +4,7 @@
  * Install, update and uninstall functions for the standard installation profile.
  */
 use Drupal\user\Entity\User;
-use Drupal\user\RoleInterface;
+use Drupal\user\UserInterface;
 use Drupal\shortcut\Entity\Shortcut;
 /**
  * Implements hook_install().
