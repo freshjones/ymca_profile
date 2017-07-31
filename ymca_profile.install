@@ -18,7 +18,15 @@ function ymca_profile_install() {
   $config_factory = \Drupal::configFactory();
 
   // Set front page to "node".
-  $config_factory->getEditable('system.site')->set('page.front', '/node')->save(TRUE);
+  $config_factory->getEditable('system.site')
+    ->set('page.front', '/node')
+    ->set('mail', 'admin@myymca.org')
+    ->set('name', 'My YMCA')
+    ->save(TRUE);
+
+  $config_factory->getEditable('system.date')
+    ->set('timezone.user.configurable', false)
+    ->save(TRUE);
 
   // Allow visitor account creation with administrative approval.
   // $user_settings = $config_factory->getEditable('user.settings');
