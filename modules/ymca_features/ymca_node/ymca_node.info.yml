@@ -1,0 +1,12 @@
+name: 'YMCA Node Package'
+description: 'YMCA Node Package'
+type: module
+core: 8.x
+package: YMCA
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
