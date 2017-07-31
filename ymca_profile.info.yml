@@ -50,6 +50,7 @@ dependencies:
   - features_ui
   #custom
   - pathauto
+  - ymca_page
   
 themes:
   - bartik

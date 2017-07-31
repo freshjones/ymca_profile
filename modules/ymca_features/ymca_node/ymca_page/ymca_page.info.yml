@@ -1,4 +1,4 @@
-name: Page
+name: 'YMCA Page'
 description: 'Provides Page content type and related configuration. Basic Web Page'
 type: module
 core: 8.x
